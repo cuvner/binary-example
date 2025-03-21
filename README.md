@@ -17,7 +17,12 @@ To edit this repository in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/cuvner/binary-example** and click import
-
+```blocks
+basic.forever(function () {
+    led.toggle(2, 2)
+    basic.pause(500)
+})
+```
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
